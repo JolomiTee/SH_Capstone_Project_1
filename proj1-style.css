@@ -297,5 +297,88 @@ footer{
     }
 
 
-    
+
+}
+@media screen and (max-width:320px) {
+    html, body, .intro{
+        width: 100vw;
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+        display: block;
+        text-align: center;
+    }
+    .features, .productivity, .testimonials, .email-sign-up, .foot-desc{
+        display: block;
+        margin: 20px;
+    }
+    .nav-bar{
+        height: 60px;
+        grid-template-columns: 3fr 1fr 1fr 1fr;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .nav-bar img{
+        width: 60%;
+        padding-left: 10px;
+    }
+    .get-started,.productivity{
+        margin: 30px 30px 70px 30px;
+        text-align: center;
+    }
+    .get-started .svg, .productivity .svg{
+        width: 330px;
+    }
+    .get-started h1, .get-started p{
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    .get-started button{
+        width: 220px;
+    }
+    .features, .productivity, .email-sign-up{
+        margin-top: 100px;
+    }
+    .features div{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .stay-productive{
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .productivity h1, .productivity p{
+        text-align: left;
+        font-size: 16px;
+    }
+    .big-quote{
+        left: 30px;
+    }
+    .email-sign-up{
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    #email-signup, .email-sign-up button{
+        width: 100%;
+        margin: 10px;
+    }
+    footer{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    ul .foot-desc-1{
+        padding-left: 0;
+    }
+    .foot-desc ul{
+        line-height: 30px;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .socials{
+        text-align: center;
+    }
+
 }
